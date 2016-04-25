@@ -1,0 +1,35 @@
+/* ======================================================
+	Footer
+====================================================== */
+
+.footer {
+	border-top: 1px solid #eee;
+	padding: 30px 0;
+    
+    &__section-caption {
+        color: #317eac;
+    }
+    
+    &__nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__nav-item {
+        padding: 6px;
+    }
+
+    &__nav-link, &__contact a {
+        color: #384452;
+    }
+
+    &__nav-link:hover, &__contact a:hover {
+        color: #384452;
+    }
+
+    &__contact {
+        color: #384452;
+        padding: 6px;
+    }
+}

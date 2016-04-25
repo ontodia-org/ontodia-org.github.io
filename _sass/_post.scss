@@ -1,0 +1,42 @@
+/* ======================================================
+	Post
+====================================================== */
+
+.post {
+    
+    &__header {
+        margin: 0 0 20px;
+    }
+    
+    &__caption {
+        margin: 0 0 15px;
+	    text-transform: capitalize;
+        
+        a {
+           color: inherit; 
+        }
+        
+        a:hover, a:focus {
+            color: #2fa4e7;
+	        text-decoration: none;
+        }
+    }
+    
+    &__meta {
+        color: #ccc;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__img-wrap {
+        display: block;
+        margin: 0 0 30px;
+    }
+
+    &__img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+}

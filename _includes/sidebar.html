@@ -1,0 +1,46 @@
+<div class="main-container__aside">
+   <!--  <h4>Search</h4>
+    <div class="hline"></div>
+        <p>
+            <br/>
+            <input type="text" class="form-control" placeholder="Search something">
+        </p>
+    <div class="spacing"></div> -->
+    <!--<h4>— Subscribe</h4>
+        <p>
+            <p class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+        </p>-->
+    <div class="aside-items-list">
+        <div class="aside-item aside-items-list__item">
+            <h5 class="aside-item__caption">— Categories</h5>
+            <div class="aside-categories-list">
+                {% for category in site.categories %}
+                    <div class="aside-categories-list__item">
+                        <a href="{{ '/catalog/#'  | prepend: site.baseurl  }}{{ category | first }}">{{ category | first | capitalize }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="aside-item aside-items-list__item">
+            <h5 class="aside-item__caption">— Latest Posts</h5>
+            <div class="post-previews-list">
+                {% for post in site.posts limit:4 %} 
+                    <div class="post-preview post-previews-list__item">
+                        <div class="post-preview__caption"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                        <div class="post-preview__meta">By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</div>
+                    </div>
+                {% endfor %} 
+            </div>
+        </div>
+        <div class="aside-item aside-items-list__item">
+            <h5 class="aside-item__caption">— Tags</h5>
+            <div class="aside-tags-list">
+                {% for category in site.categories %}
+                    <a class="btn btn-default btn-xs aside-tags-list__item" href="{{ '/catalog/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">
+                    {{ category | first | capitalize }}
+                    </a>	         
+                {% endfor %}
+            </div>
+        </div>     
+    </div>
+</div>

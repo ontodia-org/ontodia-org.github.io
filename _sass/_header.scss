@@ -1,0 +1,126 @@
+/* ======================================================
+	Header
+====================================================== */
+
+.navigation {
+	background: #2fa4e7;
+	border-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+    
+    &__container:before, &__container:after {
+        display: none;
+    }
+    
+    &__controls {
+        border-top: 1px solid #fff;
+        display: none;
+        margin: 0 -15px;
+        padding: 15px;
+        
+        &.active {
+            display: block;
+        }
+    }
+    
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__list-link {
+        color: #fff;
+        font-size: 16px;
+        line-height: 1;
+        opacity: 0.8;
+        
+        &:hover, &:focus {
+            color: #fff;
+            opacity: 1;
+            text-decoration: none;
+        }
+    }
+
+    &__list-item.active &__list-link {
+        font-weight: 700;
+        opacity: 1;
+    }
+    
+    &__enter {
+        margin: 15px 0 0;
+    }
+    
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__logo {
+        display: inline-block;
+        margin-left: -15px;
+        padding: 15px;
+    }
+    
+    &__logo-img {
+        display: block;
+    }
+    
+    &__btn {
+        border: 2px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        display: inline-block;
+        height: 30px;
+        line-height: 26px;
+        text-align: center;
+        width: 30px;
+        
+        &:hover, &:focus {
+            color: #fff;
+	        text-decoration: none
+        }
+    }
+    
+    @media (min-width: $screen-sm-min) {
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        &__controls {
+            border: 0 none;
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+        
+        &__controls.active {
+            display: flex;
+        }
+        
+        &__list {
+            display: flex;
+            align-items: center;
+            margin: 0 25px 0 0;
+        }
+        
+        &__list-item {
+            margin: 0 15px;
+        }
+        
+        &__enter {
+            margin: 0;
+        }
+        
+        &__header {
+            display: block;
+        }
+        
+        &__btn {
+            display: none;
+        }
+    }
+}

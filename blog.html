@@ -1,0 +1,36 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+---
+
+<div class="main-container">
+    <div class="container main-container__wrap">
+    <! -- BLOG POSTS LIST -->
+    <div class="main-container__content">
+        <div class="posts-list">
+        {% for post in site.posts %}
+            <! -- Blog Post -->
+            <div class="post posts-list__item">
+                <div class="post__header">
+                    {% if post.img %}
+                        <a class="post__img-wrap" href="{{ post.url | prepend: site.baseurl }}">
+                            <img class="post__img" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                        </a>
+                    {% endif %}
+                    <h2 class="post__caption"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                    <div class="post__meta">By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</div>
+                </div>
+                <div class="post__body text">
+                    {{ post.excerpt }}
+                </div>
+                <div class="post__footer">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-success">Read More</a>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    {% include sidebar.html %}
+    </div>
+</div>

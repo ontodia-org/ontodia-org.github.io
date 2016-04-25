@@ -1,0 +1,49 @@
+# Site settings
+title: Ontodia
+logo: "/assets/img/logo.png"
+description: "Description"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://blolg.github.io/"
+timezone: UTC
+future: true
+
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!-- more -->
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: facebook
+    url:
+  - title: twitter
+    url:
+
+# Contributors
+contributors:
+  - title: Vismart Ltd.
+    url: "http://www.vismart.biz"
+  - title: ITMO University
+    url: "http://www.ifmo.ru"
+    
+# Quick links
+quick_links:
+  - title: About
+    url: "/about/"
+  - title: Blog & Tutorials
+    url: "/blog/"
+    
+# Contact us
+contact_us:
+  - title: Vismart Ltd.
+    emails:
+      - title: info@vismart.biz
+        url: "https://groups.google.com/forum/#!forum/ontodia"
+      - title: www.vismart.biz
+        url: "http://www.vismart.biz"

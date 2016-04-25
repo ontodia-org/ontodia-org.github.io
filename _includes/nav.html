@@ -1,0 +1,28 @@
+<!-- Fixed navbar -->
+<div class="navigation">
+  <div class="container navigation__container">
+    <div class="navigation__header">
+      <a class="navigation__logo" href="{{ "/"  | prepend: site.baseurl }}"><img class="navigation__logo-img" src="{{ site.logo }}" alt="Ontodia" width="130"></a>
+      <a href="#" class="navigation__btn">
+        <i class="fa fa-bars navigation__btn-bars" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="navigation__controls">
+      <ul class="navigation__list">
+        <li {% if page.title == "Index" %}class="active navigation__list-item"{% endif %} class="navigation__list-item">
+          <a class="navigation__list-link" href="{{"/" | prepend: site.baseurl }}">Home</a>
+        </li>
+        <li {% if page.title == "Blog" %}class="active navigation__list-item"{% endif %} class="navigation__list-item">
+          <a class="navigation__list-link" href="{{"/blog/" | prepend: site.baseurl }}">Blog</a>
+        </li>
+        <li {% if page.title == "About" %}class="active navigation__list-item"{% endif %} class="navigation__list-item">
+          <a class="navigation__list-link" href="{{"/about/" | prepend: site.baseurl }}">About</a>
+        </li>
+      </ul>
+      <div class="navigation__enter">
+        <a href="http://www.ontodia.org/login" class="btn btn-default btn-sm navigation__enter-login">Log in</a>
+        <a href="http://www.ontodia.org/register" class="btn btn-success btn-sm navigation__enter-signup">Sign up</a>
+      </div>
+    </div>
+  </div>
+</div>

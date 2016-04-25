@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="main-container">
+    <div class="container main-container__wrap">
+        <! -- SINGLE POST -->
+        <div class="main-container__content">
+            <! -- Blog Post  -->
+            <div class="post">
+                <div class="post__header">
+                        {% if page.img %}
+                            <div class="post__img-wrap">
+                                <img class="post__img" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}">
+                            </div>
+                        {% endif %}
+                        <h1 class="post__caption">{{ page.title }}</h1>
+                        <div class="post__meta">By {{ page.author }} on {{ page.date | date: "%b %-d, %Y" }}</div>
+                    </div>
+                    <div class="post__body text">
+                        {{ content }}
+                    </div>
+                </div>
+        </div>
+        {% include sidebar.html %}
+    </div>
+</div>

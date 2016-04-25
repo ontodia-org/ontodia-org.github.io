@@ -1,0 +1,29 @@
+/* ======================================================
+	Post Preview
+====================================================== */
+
+.post-preview {
+    &__caption {
+        font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+
+    &__caption a {
+        color: inherit;
+    }
+
+    &__caption a:hover, &__caption a:focus {
+        color: #2fa4e7;
+        text-decoration: none;
+    }
+
+    &__meta {
+        color: #ccc;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }   
+}

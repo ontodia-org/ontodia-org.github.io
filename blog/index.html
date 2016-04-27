@@ -14,8 +14,11 @@ title: Blog
                     </a>
                 {% endif %}
                 <h2 class="post__caption"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                <div class="post__meta">By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</div>
-                <a class="disqus-comment-count" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+                <div class="post__meta">
+                    By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}
+                    &middot;
+                    <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+                </div>
             </div>
             <div class="post__body text">
                 {{ post.excerpt }}

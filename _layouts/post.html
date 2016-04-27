@@ -39,8 +39,8 @@ layout: blog
 <script type="text/javascript">
     var disqus_shortname = '{{ site.disqus_shortname }}';
     var disqus_config = function () {
-        this.page.url = "{{ page.url }}";
-        this.page.identifier = "{{ page.id }}";
+        this.page.url = "{{ site.url }}{{ page.url }}";
+        this.page.identifier = "{{ page.url }}";
     };
     (function() {
         var d = document, s = d.createElement('script');

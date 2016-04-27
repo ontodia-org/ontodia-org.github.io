@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Embedding Ontodia into your own site"
-date: 2015-03-21 16:47:00
+date: 2016-03-21 16:47:00
 author: Alexey Morozov
 categories:
 - tutorial

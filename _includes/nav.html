@@ -10,8 +10,6 @@
     <div class="navigation__controls">
       <ul class="navigation__list">
         {% for link in site.navigation %}
-        
-          <!-- Set Active -->
           {% assign active = nil %}
           {% if link.layouts %}
             {% for l in link.layouts %}

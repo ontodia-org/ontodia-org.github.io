@@ -2,4 +2,11 @@
 layout: default
 ---
 
-{{ content }}
+<div class="main-container">
+    <div class="container main-container__wrap">
+    <div class="main-container__content">
+        {{ content }}
+    </div>
+    {% include sidebar.html %}
+    </div>
+</div>

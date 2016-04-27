@@ -2,7 +2,9 @@
 <html>
     {% include head.html %}
     <body>
-        {% include nav.html %}
+        {% if page.title != 'Index' %}
+            {% include nav.html %}
+        {% endif %}
         {{ content }}
         {% include footer.html %}
         {% include js.html %}

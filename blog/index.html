@@ -1,0 +1,41 @@
+---
+layout: blog
+title: Blog
+---
+
+<div class="posts-list">
+    {% for post in paginator.posts %}
+        <! -- Blog Post -->
+        <div class="post posts-list__item">
+            <div class="post__header">
+                {% if post.img %}
+                    <a class="post__img-wrap" href="{{ post.url | prepend: site.baseurl }}">
+                        <img class="post__img" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                    </a>
+                {% endif %}
+                <h2 class="post__caption"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <div class="post__meta">By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</div>
+            </div>
+            <div class="post__body text">
+                {{ post.excerpt }}
+            </div>
+            <div class="post__footer">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-success">Read More</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+    <nav class="pager-wrap">
+        <ul class="pager pager-wrap__pager">
+            {% if paginator.previous_page %}
+                <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Newer Posts</a></li>
+            {% endif %}
+            {% if paginator.next_page %}
+                <li class="next"><a href="{{ paginator.next_page_path }}">Older Posts <span aria-hidden="true">&rarr;</span></a></li>
+            {% endif %}
+        </ul>
+    </nav>
+{% endif %}

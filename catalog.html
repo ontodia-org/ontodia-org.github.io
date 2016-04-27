@@ -4,28 +4,19 @@ title: Catalog
 permalink: /catalog/
 ---
 
-<div class="main-container">
-    <div class="container main-container__wrap">
-        <div class="main-container__content">
-
-            <! -- BLOG POSTS LIST -->
-            <div class="categories-list">
-                {% for category in site.categories %}
-                    <div class="category categories-list__item">
-                        <a class="anchor" id="{{ category.first }}"></a>
-                        <h3 class="category__caption">{{ category.first }}</h3>
-                        <div class="post-previews-list">
-                            {% for post in site.categories[category.first] %}
-                                <div class="post-preview post-previews-list__item">
-                                    <div class="post-preview__caption"><a href="{{ post.url }}">{{ post.title }}</a></div>
-                                    <div class="post-preview__meta">By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</div>
-                                </div>
-                            {% endfor %}
-                        </div>
+<div class="categories-list">
+    {% for category in site.categories %}
+        <div class="category categories-list__item">
+            <a class="anchor" id="{{ category.first }}"></a>
+            <h3 class="category__caption">{{ category.first }}</h3>
+            <div class="post-previews-list">
+                {% for post in site.categories[category.first] %}
+                    <div class="post-preview post-previews-list__item">
+                        <div class="post-preview__caption"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                        <div class="post-preview__meta">By {{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</div>
                     </div>
                 {% endfor %}
             </div>
         </div>
-        {% include sidebar.html %}
-    </div>
+    {% endfor %}
 </div>

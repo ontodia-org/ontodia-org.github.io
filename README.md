@@ -12,7 +12,7 @@
   Where <code>YEAR</code> is a four-digit number, <code>MONTH</code> and
   <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code> is the
   file extension representing the format used in the file. For example, the
-  following are examples of valid post filenames:
+  following are example of valid post filename:
 
   ```
   2016-04-28-how-to-write-a-blog.markdown

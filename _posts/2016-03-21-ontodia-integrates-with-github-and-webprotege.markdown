@@ -5,13 +5,18 @@ date: 2016-03-21 15:54:46
 author: Dmitry Pavlov
 categories:
 - news
-tags:
-img: img1.jpg
+img: /assets/img/blog/img1.jpg
 ---
 
-Just a couple of days ago we've finished a strongly requested integration feature for Ontodia.org. Now it accepts links to Github files and links to WebProtege projects as data sources for diagramming.
+Just a couple of days ago we've finished a strongly requested integration
+feature for Ontodia.org. Now it accepts links to Github files and links to
+WebProtege projects as data sources for diagramming.
 
-Our web service is a simple tool for visualization of semantic datasets and ontology, hence it needs good integration means with repo hosting services and ontology production envirenments. To cover the use case of ontology production with visual verification we implemented integration of Ontodia with Github and WebProtege.
+Our web service is a simple tool for visualization of semantic datasets and
+ontology, hence it needs good integration means with repo hosting services
+and ontology production envirenments. To cover the use case of ontology
+production with visual verification we implemented integration of Ontodia
+with Github and WebProtege.
 
 <!-- more -->
 

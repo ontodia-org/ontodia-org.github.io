@@ -44,7 +44,7 @@
   author: Dmitry Pavlov
   categories:
   - news
-  img: img1.jpg
+  img: /assets/img/blog/img1.jpg
   ---
   ```
 
@@ -60,7 +60,7 @@
   author: Dmitry Pavlov
   categories:
   - news
-  img: img1.jpg
+  img: /assets/img/blog/img1.jpg
   ---
 
   Just a couple of days ago we've finished a strongly requested integration
@@ -80,4 +80,13 @@
   * Log in into Ontodia
   * In Dashboard under Data Source panel click "Create" button
   * In a dialogue box select either GitHub source or WebProtege project
+  ```
+
+* To add images to a post you must upload them to the
+  <code>/assets/img/blog/</code> directory.<br/>
+  And then you can add images to the content in the following ways:
+
+  ```
+  ![Alt text](/assets/img/blog/img.jpg "Optional title")
+  <img src="/assets/img/blog/img.jpg " alt="Alt text" title="Optional title"/>
   ```

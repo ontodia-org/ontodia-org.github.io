@@ -5,7 +5,6 @@ date: 2016-04-22 15:00:00
 author: Dmitry Pavlov
 categories:
 - tutorial
-tags:
 img:
 ---
 

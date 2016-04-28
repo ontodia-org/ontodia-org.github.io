@@ -10,7 +10,7 @@ title: Blog
             <div class="post__header">
                 {% if post.img %}
                     <a class="post__img-wrap" href="{{ post.url | prepend: site.baseurl }}">
-                        <img class="post__img" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                        <img class="post__img" src="{{ post.img }}">
                     </a>
                 {% endif %}
                 <h2 class="post__caption"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>

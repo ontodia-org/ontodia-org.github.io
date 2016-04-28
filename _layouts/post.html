@@ -6,7 +6,7 @@ layout: blog
     <div class="post__header">
         {% if page.img %}
             <div class="post__img-wrap">
-                <img class="post__img" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}">
+                <img class="post__img" src="{{ page.img }}">
             </div>
         {% endif %}
         <h1 class="post__caption">{{ page.title }}</h1>
@@ -44,9 +44,9 @@ layout: blog
     };
     (function() {
         var d = document, s = d.createElement('script');
-        
+
         s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        
+
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

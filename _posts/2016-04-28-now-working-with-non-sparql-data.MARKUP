@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Now accepting non-SPARQL data"
+date: 2016-04-28 18:01:00
+author: Dmitry Pavlov
+categories:
+- news
+img:
+---
+
+As a result of joint effort of VISmart and InterSystems Ontodia now has means of accepting non-SPARQL data. 
+It means that a special connector now can be epmloyed by object-oriented data bases for passing data to Ontodia. From this point and on
+a user can explore, visualize, share and publish non-SPARQL data just like it was previously done with RDF and OWL sources. 
+
+<!-- more -->

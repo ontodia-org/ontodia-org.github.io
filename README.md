@@ -4,17 +4,22 @@
 
 * Create a file in the <code>_posts</code> directory.<br/>
   Jekyll requires blog post files to be named according to the following format:
+
   ```
   YEAR-MONTH-DAY-title.MARKUP
   ```
+
   Where <code>YEAR</code> is a four-digit number, <code>MONTH</code> and
   <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code> is the
   file extension representing the format used in the file. For example, the
   following are examples of valid post filenames:
+
   ```
   2016-04-28-how-to-write-a-blog.markdown
   ```
+
 * At the beginning of the file, add the following structure:
+
   ```
   ---
   layout: post
@@ -28,7 +33,9 @@
   img: BANNER
   ---
   ```
+
   For example, the following are examples of valid structure:
+
   ```
   ---
   layout: post
@@ -40,9 +47,11 @@
   img: img1.jpg
   ---
   ```
+
 * Add <code><!-- more --></code> tag in your post. Post content before this tag
   will be marked as excerpt.
   For example:
+
   ```
   ---
   layout: post

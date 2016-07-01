@@ -7,12 +7,12 @@ categories:
 - news
 img: /assets/img/blog/stretching connection.png
 ---
-Going to ESWC 2016 – one of the most acknowledged conferences on semantic technologies – I was excited having to present at the demo session our newly built preview of data editing functionality. This is the kind of feature we all have been dreaming of making for almost a year but never had a chance or courage to step to it.
+Going to <a href="http://2016.eswc-conferences.org/">ESWC 2016</a> – one of the most acknowledged conferences on semantic technologies – I was excited having to present at the demo session our newly built preview of data editing functionality. This is the kind of feature we all have been dreaming of making for almost a year but never had a chance or courage to step to it.
 
 <!-- more -->
 
 Finally, the approval for our participation in the conference gave us all a kick of proper motivation to plunge into development frenzy. Daniil Razdyakonov and Olga Belyaeva toughed it up in little over than a week.
-Right now the editing capabilities are extremely limited. Let me tell you what you can and can’t do with the sneak preview data editing prototype.
+Right now the editing capabilities are extremely limited in <a href="http://Ontodia.org">Ontodia</a>. Let me tell you what you can and can’t do with the sneak preview data editing prototype.
 You can:
 <ul>
 <li>Edit datatype properties of any object on the graph by togging to “Properties” panel of the right and modifying the property values</li>

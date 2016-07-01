@@ -16,6 +16,7 @@ You can:
 * Edit datatype properties of any object on the graph by togging to “Properties” panel of the right and modifying the property values
 *	Create new object properties (relations) between objects on the graph  be clicking <img src="/assets/img/blog/stretch connection icon.png " alt="stretch connection icon"/> icon next to the node and stretching the arrow to another node
 
+<img src="/assets/img/blog/stretching connection.png" alt="stretch connection icon"/>
 Right now you cannot:
 *	Save changes to data sources other than SPARQL endpoint running on Blazegraph. For other sources we keep only temporary history in browser
 *	Create new objects

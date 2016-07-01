@@ -26,4 +26,4 @@ Right now you cannot:
 </ul>
 Looking forward to hear your impression on the preview. It is deployed on our testing ground here: dev.ontodia.org
 Please feel free to discuss ontodia with us at our <a href="https://groups.google.com/forum/#!forum/ontodia">dedicated newsgroup </a> 
-or write to us directly at <a href=mailto:ontodia-people@vismart.biz>ontodia-people@vismart.biz</a>
+or write to us directly at <a href="mailto:ontodia-people@vismart.biz">ontodia-people@vismart.biz</a>

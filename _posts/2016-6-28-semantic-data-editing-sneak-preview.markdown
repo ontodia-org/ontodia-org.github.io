@@ -24,6 +24,9 @@ Right now you cannot:
 <li>Save changes to data sources other than SPARQL endpoint running on Blazegraph. For other sources we keep only temporary history in browser</li>
 <li>Create new objects</li>
 </ul>
+
+Please visit <a href="http://edit.ontodia.org">edit.ontodia.org</a> to check out the data editing. 
+
 Looking forward to hear your impression on the preview. It is deployed on our testing ground here: dev.ontodia.org
 Please feel free to discuss ontodia with us at our <a href="https://groups.google.com/forum/#!forum/ontodia">dedicated newsgroup </a> 
 or write to us directly at <a href="mailto:ontodia-people@vismart.biz">ontodia-people@vismart.biz</a>

@@ -25,4 +25,5 @@ Ontodia library keeps all the features of the Ontodia.org web application.
 In September we will release an open source version of the library for the general public. Until then we invite you to [check out](http://198.211.125.30:57772/csp/ontodia-cache/index.html?namespace=Samples) how Ontodia library enables data navigation over non-SPARQL data source.
 
 Hang on tight - Ontodia library is coming!
+
  > Ontodia.org team was selected to present Ontodia as a Startup at [Linked Startup Workshop](http://linkedstartup.ifs.tuwien.ac.at/2016/) organized as a satellite event with [ISWC 2016](http://iswc2016.semanticweb.org/). Together with Ontodia.org service we will be showing the stand-alone Ontodia library. Drop by to say hello to us if you happen to be in Kobe this year!

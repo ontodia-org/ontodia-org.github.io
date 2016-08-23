@@ -7,8 +7,6 @@ categories:
 - news
 img:
 ---
-## Prerequisites
-
 We have already quite a history of collaboration with [InterSystems](http://www.intersystems.com). The latest episode resulted in creation of a lightweight JavaScript library from Ontodia web application.
 <!-- more -->
 The motivation for it was acquired at [ESWC 2016](http://2016.eswc-conferences.org/) - one of the leading event in the semantic web community. Our team demoed Ontodia's new feature this year and the feedback from developers was loud and clear. We need the library so much more than we ever needed any web application.

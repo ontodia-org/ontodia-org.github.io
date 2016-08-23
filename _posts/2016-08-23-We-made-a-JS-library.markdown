@@ -26,4 +26,4 @@ In September we will release an open source version of the library for the gener
 
 Hang on tight - Ontodia library is coming!
 
- <blockquote> Ontodia.org team was selected to present Ontodia as a Startup at [Linked Startup Workshop](http://linkedstartup.ifs.tuwien.ac.at/2016/) organized as a satellite event with [ISWC 2016](http://iswc2016.semanticweb.org/). Together with Ontodia.org service we will be showing the stand-alone Ontodia library. Drop by to say hello to us if you happen to be in Kobe this year!</blockquote>
+ <blockquote> Ontodia.org team was selected to present Ontodia as a Startup at <a href="http://linkedstartup.ifs.tuwien.ac.at/2016/">Linked Startup Workshop</a> organized as a satellite event with <a href="http://iswc2016.semanticweb.org/">ISWC 2016</a>. Together with Ontodia.org service we will be showing the stand-alone Ontodia library. Drop by to say hello to us if you happen to be in Kobe this year!</blockquote>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ontodia released as a JS library in open source"
-date: 2016-21-09 10:47:00
+date: 2016-09-21 10:47:00
 author: Dmitry Pavlov
 categories:
 - news

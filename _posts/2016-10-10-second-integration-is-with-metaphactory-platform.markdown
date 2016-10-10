@@ -15,6 +15,6 @@ Ontodia library is used in the platform to visualize the graph for the purposes 
 * Allow user to see the image associated with the node for the richer data representation,
 * Custom html templating for nodes and edged (to be released for the library soon)
 
-<img src="/assets/img/blog/pics-on-graph.png" align="center"></img>
+<img src="/assets/img/blog/pics-on-graph.png" height="300" align="center"></img>
 
 The result of integration will be demonstrated to the public at <a href="http://iswc2016.semanticweb.org/">ISWC 2016</a> on October, 17 during the <a href="http://linkedstartup.ifs.tuwien.ac.at/2016/program/">Linked Startup Workshop</a>.  

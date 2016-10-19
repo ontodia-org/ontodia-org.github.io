@@ -32,6 +32,8 @@ navigation:
     layouts: [blog, post]
   - title: About
     url: "/about/"
+  - title: GitHub
+    url: "https://github.com/ontodia-org/ontodia"
 
 
 # Social

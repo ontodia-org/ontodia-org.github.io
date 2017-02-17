@@ -19,7 +19,7 @@ which is extremely valuable to us.
 
 We'd like to express our gratitude here to all who participated and 
 continues to use our <a href="https://ontodia.org">ontodia.org</a> service or builds his solution around 
-ontodia data visualization library <ahref="https://github.com/ontodia-org/ontodia">github.com/ontodia-org/ontodia!</a> 
+ontodia data visualization library <a href="https://github.com/ontodia-org/ontodia">github.com/ontodia-org/ontodia!</a> 
 
 It's a pleasure to work with you and for you and it's amazingly rewarding to receive contributions and feedback!
 In order to simplify for you the access to our development team and to our growing community, we'd like to invite 

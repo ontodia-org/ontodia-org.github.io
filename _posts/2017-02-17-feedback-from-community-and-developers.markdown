@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A feedback from community and contributions from developers"
-date: 2016-02-17 10:47:00
+date: 2017-02-17 10:47:00
 author: Dmitry Pavlov
 categories:
 - news

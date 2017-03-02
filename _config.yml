@@ -58,13 +58,15 @@ quick_links:
     url: "/about/"
   - title: Blog & Tutorials
     url: "/blog/"
-    
+  - title: Projects
+    url: "/projects/"
+
 # Contact us
-contact_us:
+contact_us:   
   - title: Vismart Ltd.
     emails:
-      - title: info@vismart.biz
-        url: "https://groups.google.com/forum/#!forum/ontodia"
+      - title: ontodia-people@vismart.biz
+        url: "mailto:ontodia-people@vismart.biz"
       - title: www.vismart.biz
         url: "http://www.vismart.biz"
   

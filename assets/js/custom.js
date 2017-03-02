@@ -21,7 +21,8 @@ $(document).ready(function(){
 		autoplay: true,
 		arrows: true,
 		centerMode: false,
-		variableWidth: true
+		variableWidth: false,
+		respondTo: 'window'
 	});
 
 

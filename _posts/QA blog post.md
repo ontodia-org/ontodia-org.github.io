@@ -30,11 +30,9 @@ By clicking the right Mozart you already start exploring the semantic data about
 
 Once Ontodia library kicks in you are on your path of visual exploration. Quite expectedly on the graph you’ll be starting from Mozart. 
 
-We tried to make the passage below sound easy, but you are free to skip ip if we did not succeed. 
+We tried to make the theoretical passage below sound easy, but you are free to skip ip if we did not succeed. 
 
-> ##### Some theory behind Linked Open Data and wikidata.org
-
-> At this point it is the right time to explain the nature of wikidata.org and **Linked open data **(LOD). Let’s start with **Linked data **first and as we get over it, it’ll become real simple. **Linked data **is a way of and the set of standards for organizing data so that it could be easily interlinked, linked with external sources and queried as one uniform data set. **Linked open data** is linked data published and open for usage on the web. Wikidata.org is a general knowledge Linked open dataset where you can find answers about almost anything, but you have to be using semantic querying. That’s exactly where it gets tricky, since not all the people in the world know how to write semantic queries. Being aware of that we’ve built a visual exploration tool for everyone to navigate and discover the world of linked open data. 
+> At this point it is the right time to explain the nature of wikidata.org and **Linked open data ** (LOD). Let’s start with **Linked data ** first and as we get over it, it’ll become real simple. **Linked data ** is a way of and the set of standards for organizing data so that it could be easily interlinked, linked with external sources and queried as one uniform data set. **Linked open data** is linked data published and open for usage on the web. **Wikidata.org** is a general knowledge Linked open dataset where you can find answers about almost anything, but you have to be using semantic querying. That’s exactly where it gets tricky, since not all the people in the world know how to write semantic queries. Being aware of that we’ve built a visual exploration tool for everyone to navigate and discover the world of linked open data. 
 
 Now when you’re familiar with what’s going on under the hood, let’s start playing around. The quickest way is to click navigation ![Navigation icon in Ontodia](/assets/img/blog/NavigateIcon.png)icon located to the right on the Mozart’s node and you’ll see all of his relations (links) that he has with other things. 
 
@@ -44,7 +42,7 @@ If you’re still interested in his family, it will make sense to open up the li
 
 ![A diagram of Mozart's family in Ontodia](/assets/img/blog/MozartFamilyOntodia.png)
 
-Now let’s find out how related this family was to music and composing. To do that go to Mozart again and open up his links through the same navigation icon, choose "occupation" link and simply click “add selected” button to add all Mozart’s occupations.  You’ll realize that many members of his family were somehow involved with music. The second observation that catches an eye is that Mozart himself received the gift of composing and playing music solely from his father but he managed to transfer this gift on to his descendents. If the graph gets too cluttered, you can get rid of extra musical occupations by clicking ![image alt text](assets/img/blog/CloseNodeIconOntodia.png)beside each node. 
+Now let’s find out how related this family was to music and composing. To do that go to Mozart again and open up his links through the same navigation icon, choose "occupation" link and simply click “add selected” button to add all Mozart’s occupations.  You’ll realize that many members of his family were somehow involved with music. The second observation that catches an eye is that Mozart himself received the gift of composing and playing music solely from his father but he managed to transfer this gift on to his descendents. If the graph gets too cluttered, you can get rid of extra musical occupations by clicking ![Close Node Icon in Ontodia](/assets/img/blog/CloseNodeIconOntodia.png)beside each node. 
 
 ![Mozart's family and composing music](/assets/img/blog/MozartFamilyComposersOntodia.png)
 

@@ -32,7 +32,7 @@ Once Ontodia library kicks in you are on your path of visual exploration. Quite 
 
 We tried to make the theoretical passage below sound easy, but you are free to skip ip if we did not succeed. 
 
-> At this point it is the right time to explain the nature of wikidata.org and **Linked open data ** (LOD). Let’s start with **Linked data ** first and as we get over it, it’ll become real simple. **Linked data ** is a way of and the set of standards for organizing data so that it could be easily interlinked, linked with external sources and queried as one uniform data set. **Linked open data** is linked data published and open for usage on the web. **Wikidata.org** is a general knowledge Linked open dataset where you can find answers about almost anything, but you have to be using semantic querying. That’s exactly where it gets tricky, since not all the people in the world know how to write semantic queries. Being aware of that we’ve built a visual exploration tool for everyone to navigate and discover the world of linked open data. 
+> At this point it is the right time to explain the nature of wikidata.org and **Linked open data** (LOD). Let’s start with **Linked data** first and as we get over it, it’ll become real simple. **Linked data** is a way of and the set of standards for organizing data so that it could be easily interlinked, linked with external sources and queried as one uniform data set. **Linked open data** is linked data published and open for usage on the web. **Wikidata.org** is a general knowledge Linked open dataset where you can find answers about almost anything, but you have to be using semantic querying. That’s exactly where it gets tricky, since not all the people in the world know how to write semantic queries. Being aware of that we’ve built a visual exploration tool for everyone to navigate and discover the world of linked open data. 
 
 Now when you’re familiar with what’s going on under the hood, let’s start playing around. The quickest way is to click navigation ![Navigation icon in Ontodia](/assets/img/blog/NavigateIcon.png)icon located to the right on the Mozart’s node and you’ll see all of his relations (links) that he has with other things. 
 
@@ -55,6 +55,5 @@ We’d be happy to hear your impressions on the tool, please write us at [ontodi
 We went as far as organized a small-scale user evaluation of our question answering tool. We distributed the list of general knowledge questions and asked the users to find answers with our solution. We are still summarizing the results and will publish them in the middle of April. In the meantime, you are more than welcome to try finding answers for yourself. 
 
 Just one last thing - some of the answers you’re looking for might be in properties drop-down box - you can open it by clicking ![Properties expand icon in Ontodia](/assets/img/blog/ExpandPropertiesIconOntodia.png)the icon beneath each node. 
-
-<img alt="Mozart's properties in Ontodia" src="/assets/img/blog/MozartPropertiesOntodia.png" height=450px)></img>
+</br><img class="img-responsive embed-tutorial-image" alt="Mozart's properties in Ontodia" src="/assets/img/blog/MozartPropertiesOntodia.png" height=450px)>
 

@@ -39,7 +39,7 @@ using <code><iframe></code> tag, for example:
   ```
   <iframe src="http://www.ontodia.org/embedded?sharedDiagram=edd98c34-3c08-4bab-aff7-149bc12c7ca9"></iframe>
   ```
-
+Please, make sure that when copying the link from sharing form to <code><iframe></code> tag you substitute **diagram?** for **embedded?**. 
 ## Embedding on-the-fly diagram
 
 To create on-the-fly diagram you should create and share data source.

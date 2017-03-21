@@ -7,7 +7,7 @@ categories:
 - news
 img:  /assets/img/blog/QA.png
 ---
-As a showcase of integration between [Ontodia ](http://ontodia.org/)and [metaphactory ](http://www.metaphacts.com/product)working as a semantic platform back-end we’ve recently launched a question answering service based on [wikidata ](https://www.wikidata.org/)data set. 
+As a showcase of integration between [Ontodia ](http://ontodia.org/)and [metaphactory ](http://www.metaphacts.com/product)working as a semantic platform back-end we’ve recently launched a question answering demo based on [wikidata ](https://www.wikidata.org/)data set. 
 
 <!-- more -->
 ## What it is for
@@ -17,7 +17,7 @@ Suppose you’d like to know how Mozart’s family was involved in music, or, in
 Besides, you happen to be also keen on sharing your newly acquired knowledge about the composer with others. 
 Your typical way of approaching this will be to google mozart, probably find a wikipedia article and navigate to "Early life" section of the corresponding wiki page, then, finally, to distribute the knowledge you probably will send the link to your friends with some comments of explanation. 
 
-Our solution introduces an alternative - a visual learning and interactive exploration of knowledge contained in wikidata to find your answers and lots more. 
+Our solution introduces an alternative - a visual and interactive exploration of knowledge contained in wikidata to find your answers and lots more. 
 
 ## How to use it
 

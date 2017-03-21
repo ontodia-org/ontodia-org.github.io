@@ -55,5 +55,6 @@ We’d be happy to hear your impressions on the tool, please write us at [ontodi
 We went as far as organized a small-scale user evaluation of our question answering tool. We distributed the list of general knowledge questions and asked the users to find answers with our solution. We are still summarizing the results and will publish them in the middle of April. In the meantime, you are more than welcome to try finding answers for yourself. 
 
 Just one last thing - some of the answers you’re looking for might be in properties drop-down box - you can open it by clicking ![Properties expand icon in Ontodia](/assets/img/blog/ExpandPropertiesIconOntodia.png)the icon beneath each node. 
-</br><img class="img-responsive embed-tutorial-image" alt="Mozart's properties in Ontodia" src="/assets/img/blog/MozartPropertiesOntodia.png" height=450px>
+
+<img alt="Mozart's properties in Ontodia" src="/assets/img/blog/MozartPropertiesOntodia.png" height = "350">
 

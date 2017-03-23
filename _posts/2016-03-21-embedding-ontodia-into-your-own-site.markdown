@@ -40,6 +40,13 @@ using <code><iframe></code> tag, for example:
   <iframe src="http://www.ontodia.org/embedded?sharedDiagram=edd98c34-3c08-4bab-aff7-149bc12c7ca9"></iframe>
   ```
 Please, make sure that when copying the link from sharing form to <code><iframe></code> tag you substitute **diagram?** for **embedded?**. 
+
+We've recorded a very informal screencast for one of our partners that could be used for walking through the process of embedding ontodia diagrams into any web site. 
+ <div class="block-center demo-video-container">
+        <iframe class="block-center" src="https://www.youtube.com/embed/Vd5kFPkcrc0"
+                frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+    
 ## Embedding on-the-fly diagram
 
 To create on-the-fly diagram you should create and share data source.

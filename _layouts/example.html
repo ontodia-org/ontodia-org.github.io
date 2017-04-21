@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://library-ontodia-org.herokuapp.com/assets/0.4.0-dev.20170421/ontodia-full.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react-dom.js"></script>
+
+<style>
+    #ontodia-container {
+        height: 800px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<div class="main-container">
+    <div class="container-fluid main-container__wrap">
+        <div class="top-caption"><h1 class="top-caption__text">{{ page.title }}</h1></div>
+        <div id="ontodia-container">
+
+        </div>
+            {{ content }}
+    </div>
+</div>

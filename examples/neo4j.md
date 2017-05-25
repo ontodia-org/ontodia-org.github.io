@@ -24,7 +24,11 @@ permalink: /example/neo4j
     }
     
     const props = {
-        ref: onWorkspaceMounted,    
+        ref: onWorkspaceMounted, 
+        onSaveDiagram: workspace => {
+            const {layoutData} = workspace.getModel().exportLayout();
+            console.log(JSON.stringify(layoutData))        
+        }   
     };
     
     const container = document.getElementById('ontodia-container');

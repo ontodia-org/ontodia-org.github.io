@@ -7,7 +7,7 @@ permalink: /about/
 ## Who we are
 
 Ontodia is brought to you by [Vismart Ltd](http://vismart.biz), an SME working closely with 
-[International Laboratory "Information Science and Semantic Technologies"](http://irc.ifmo.ru/en/87807/) from [NRU ITMO](http://en.ifmo.ru/en/).
+[International Laboratory "Information Science and Semantic Technologies"](http://semantics.ifmo.ru/en/) from [ITMO University](http://en.ifmo.ru/en/).
 
 ## Contacts
 

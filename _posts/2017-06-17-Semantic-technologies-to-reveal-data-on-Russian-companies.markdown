@@ -7,10 +7,6 @@ categories:
 - news
 img: /assets/img/blog/Cover_TopologyOfBusinessWithOntodia.png
 ---
-Semantic technologies to reveal data on Russian companies
-
-# The purpose
-
 Two companies, [DataFabric](http://datafabric.cc/) and [Vismart Ltd.](https://vismart.biz/) have joined forces in building a commercial [service](http://tree-i8n.apps.datafabric.cc/) to investigate, explore and analyze the information about any organization registered in Russia. The [service](http://tree-i8n.apps.datafabric.cc/) encourages exploration through relations of the legal entity with other entities and people. It helps find a company of interest and learn about its shareholders, executives, locations, subsidiaries, shares in other companies, etc. The entire exploration process is carried out on interactive graph by means of incremental expansion of nodes.
 <!-- more -->
 The legal entities registry explorer (Topology of Business) is targeted to Russian market, but we have made an almost fully functional English version in order to broaden the exposure of the Russian open data to other countries. Currently, we may lack the translation of directory with codes of field of activities and a couple of other things, but it’s in our plans to have it in English soon. Generally, the service allows anyone to investigate any organization in Russia from outside of Russia, which is quite unheard of!

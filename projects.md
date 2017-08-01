@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<h2>Business topology<br><small>A visulization of and navigation over the data from National business registry of Russia</small></h2>
+<h2>Business topology<br><small>A visualization of and navigation over the data from National business registry of Russia</small></h2>
 
 <div class="alert alert-info" role="alert">
     <p>The challenge was to adjust ontodia library to accommodate to some specific use cases and tune its behavior to business intelligence domain. It all took some major changes to how Ontodia looks, feels and behaves.

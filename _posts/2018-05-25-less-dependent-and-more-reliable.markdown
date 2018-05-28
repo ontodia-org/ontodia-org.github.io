@@ -8,8 +8,6 @@ categories:
 img: /assets/img/blog/Cover_collage_OntodiaSite.jpg
 ---
 
-# Initial bootstrapping with JointJS
-
 From the very beginning [Ontodia](http://ontodia.org/), which we position as a graph exploration tool, carried a heavy dependency. It critically relied on [JointJS ](https://www.jointjs.com/)library. JointJS is a front-end component that enables visualization and creation of many types of diagrams in user interface. It was a huge help for us at the start. With the very good quality of code we had a significant portion of Ontodia functionality covered by this open source library and we are very thankful to its developers. We were selecting this component carefully and cautiously and it served us well for a while.
 <!-- more -->
 

@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Who we are
 
-Ontodia is brought to you by [Vismart Ltd](http://vismart.biz), a small business company specializing in development of practical tools with the use of semantic technologies.
+Ontodia as an open source solution is brought to you by newly established company - Sputniq GmbH, which supports the development and commercialization of Ontodia and its commercial version - Sputniq Explorer.
 
 ## Contacts
 
 If you have questions or suggestions, please post it in [OntoDia Google Group](https://groups.google.com/forum/#!forum/ontodia) 
-or reach us at **ontodia-people@vismart.biz**.
+or reach us at **dp@sputniq.eu**.

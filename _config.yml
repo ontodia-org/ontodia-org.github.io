@@ -47,8 +47,8 @@ social:
 
 # Contributors
 contributors:
-  - title: Vismart Ltd.
-    url: "http://www.vismart.biz"
+  - title: Sputniq GmbH
+  #url: "http://www.vismart.biz"
     
 # Quick links
 quick_links:
@@ -61,12 +61,12 @@ quick_links:
 
 # Contact us
 contact_us:   
-  - title: Vismart Ltd.
+  - title: Sputniq GmbH
     emails:
-      - title: ontodia-people@vismart.biz
-        url: "mailto:ontodia-people@vismart.biz"
-      - title: www.vismart.biz
-        url: "http://www.vismart.biz"
+      - title: dp@sputniq.eu
+        url: "mailto:dp@sputniq.eu"
+      #- title: www.vismart.biz
+       # url: "http://www.vismart.biz"
   
   
 gems: [jekyll-paginate, jekyll-autoprefixer]    

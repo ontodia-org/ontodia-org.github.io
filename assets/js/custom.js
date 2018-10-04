@@ -33,7 +33,7 @@ $(document).ready(function(){
 		isDiagramShown = true;
 		$frameStub.hide();
 		$("#diagramFrame")
-			.attr("src", "http://www.ontodia.org/embedded?sharedDiagram=" + $button.data("target"))
+			.attr("src", "//www.ontodia.org/embedded?sharedDiagram=" + $button.data("target"))
 			.show();
 	}
 

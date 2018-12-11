@@ -5,8 +5,8 @@ permalink: /projects/
 ---
 
 <h2>Business topology<br><small>A visualization of and navigation over the data from National business registry of Russia</small></h2>
-<P>Link to the developed service (all interface and content in Russian) - <a href=https://tree.datafabric.cc>tree.datafabric.cc</a></p>
-<p>Link to Thomson Reuters dataset exploration demo - <a href=https://tr.datafabric.cc>tr.datafabric.cc</a></p>
+<P>Link to the developed service (all interface and content in Russian) - <a href="https://tree.datafabric.cc">tree.datafabric.cc</a></p>
+<p>Link to Thomson Reuters dataset exploration demo - <a href="https://tr.datafabric.cc">tr.datafabric.cc</a></p>
 <div class="alert alert-info" role="alert">
     <p>The challenge was to adjust ontodia library to accommodate to some specific use cases and tune its behavior to business intelligence domain. It all took some major changes to how Ontodia looks, feels and behaves.
     </p>

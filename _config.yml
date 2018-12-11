@@ -48,7 +48,7 @@ social:
 # Contributors
 contributors:
   - title: Sputniq GmbH
-  #url: "http://www.vismart.biz"
+  #url: "http://www.sputniq.de"
     
 # Quick links
 quick_links:
@@ -63,8 +63,8 @@ quick_links:
 contact_us:   
   - title: Sputniq GmbH
     emails:
-      - title: dp@sputniq.eu
-        url: "mailto:dp@sputniq.eu"
+      - title: dp@sputniq.de
+        url: "mailto:dp@sputniq.de"
       #- title: www.vismart.biz
        # url: "http://www.vismart.biz"
   

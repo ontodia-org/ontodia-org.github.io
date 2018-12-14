@@ -46,9 +46,9 @@ social:
     url:
 
 # Contributors
-contributors:
-  - title: Sputniq GmbH
-  url: "http://www.sputniq.de"
+# contributors:
+#  - title: Sputniq GmbH
+#  url: "http://www.sputniq.de"
     
 # Quick links
 quick_links:

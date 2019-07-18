@@ -11,4 +11,4 @@ Ontodia is brought to you by [Sputniq GmbH](http://sputniq.de), which administra
 ## Contacts
 
 If you have questions or suggestions, please post it in [OntoDia Google Group](https://groups.google.com/forum/#!forum/ontodia) 
-or reach us at **dp@sputniq.de**.
+or reach us at **dp@metaphcts.com**.

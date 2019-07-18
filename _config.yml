@@ -47,8 +47,8 @@ social:
 
 # Contributors
 # contributors:
-#  - title: metaphacts GmbH
-#  url: "http://www.metaphacts.com"
+#  - title: VISmart Ltd.
+#  url: "http://www.vismart.biz"
     
 # Quick links
 quick_links:
@@ -63,8 +63,8 @@ quick_links:
 contact_us:   
   - title: metaphacts GmbH
     emails:
-      - title: dp@metaphacts.com
-        url: "mailto:dp@metaphacts.com"
+      - title: dmitry.pavlov@ontodia.org
+        url: "mailto:dmitry.pavlov@ontodia.org"
       #- title: www.vismart.biz
        # url: "http://www.vismart.biz"
   

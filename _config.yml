@@ -47,8 +47,8 @@ social:
 
 # Contributors
 # contributors:
-#  - title: Sputniq GmbH
-#  url: "http://www.sputniq.de"
+#  - title: metaphacts GmbH
+#  url: "http://www.metaphacts.com"
     
 # Quick links
 quick_links:
@@ -61,10 +61,10 @@ quick_links:
 
 # Contact us
 contact_us:   
-  - title: Sputniq GmbH
+  - title: metaphacts GmbH
     emails:
-      - title: dp@sputniq.de
-        url: "mailto:dp@sputniq.de"
+      - title: dp@metaphacts.com
+        url: "mailto:dp@metaphacts.com"
       #- title: www.vismart.biz
        # url: "http://www.vismart.biz"
   

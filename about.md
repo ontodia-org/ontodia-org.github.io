@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Who we are
 
-Ontodia is brought to you by [VISmart Ltd.](http://vismart.ru), which administrates the development and commercialization of the platform.
+Ontodia is brought to you by [VISmart Ltd.](http://vismart.biz), which administrates the development and commercialization of the platform.
 
 ## Contacts
 

@@ -11,4 +11,4 @@ Ontodia is brought to you by [VISmart Ltd.](http://vismart.biz), which administr
 ## Contacts
 
 If you have questions or suggestions, please post it in [OntoDia Google Group](https://groups.google.com/forum/#!forum/ontodia) 
-or reach us at **dmitry.pavlov@ontodia.org**.
+or reach us at **dmitry.pavlov@vismart.biz**.

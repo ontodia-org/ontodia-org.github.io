@@ -1,26 +1,10 @@
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-6">
                 <a href="{{ "/"  | prepend: site.baseurl }}"><img src="{{ site.logo }}" alt="Ontodia" width="123"></a>
             </div>    
-            <div class="col-sm-3 footer__section">
-                <h4 class="footer__section-caption">Quick links</h4>
-                <ul class="footer__nav">
-                    {% for link in site.quick_links %}
-                        <li class="footer__nav-item"><a href="{{ link.url }}" class="footer__nav-link">{{ link.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div class="col-sm-3 footer__section">
-                <h4 class="footer__section-caption">Contributors</h4>
-                <ul class="footer__nav">
-                    {% for contributor in site.contributors %}
-                        <li class="footer__nav-item"><a href="{{ contributor.url }}" class="footer__nav-link">{{ contributor.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div class="col-sm-3 footer__section">
+            <div class="col-sm-6 footer__section">
                 <h4 class="footer__section-caption">Contact us</h4>
                 {% for contact in site.contact_us %}
                     <div class="footer__contact">
